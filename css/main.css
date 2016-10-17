@@ -12,7 +12,7 @@ body {
 main {
   background-color: #fff;
   max-width: inherit;
-  text-align: center;
+  text-align: left;
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
@@ -37,12 +37,12 @@ main header {
   text-align: left;
   text-overflow: clip;
 }
+
 .btn li a {
   display: inline-block;
   background-color: #fff;
   color: #333;
   padding: 1em;
-  margin: 1.5rem;
   border: 3px solid #333;
   border-radius: 7px;
   text-decoration: none;
@@ -50,7 +50,10 @@ main header {
 }
 
 .btn {
+  padding: 0;
+  padding-left: 1em;
   list-style-type: none;
+  align-content: center;
 }
 
 .btn li a:hover {
@@ -73,6 +76,7 @@ main header {
   width: 95%;
   align-content: center;
 }
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
